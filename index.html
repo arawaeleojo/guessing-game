@@ -1,0 +1,26 @@
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guessing Game</h1>
+        <p id="number" class="trial1">I'm thinking of a number from 0 - 5. Can you guess the number ?</p>
+        <p class="trial">You have 3 trials for each level!</p>
+        <form>
+            <input type="number" id="input" value="0" min="0" max="50">
+        </form>
+        <button id="enter" class="btn">Submit</button>
+        <div class="resultparas">
+            <p id="text"></p>
+            <p id = "texts"></p>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
